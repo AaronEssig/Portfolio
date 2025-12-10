@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo Liste</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="Todo.js" defer></script>
+</head>
+<body>
+
+<h1>ToDo Liste</h1>
+<hr>
+
+<div>
+    <label for="todoInput">Geben Sie Ihr Todo an:</label>
+    <input type="text" id="todoInput" maxlength="100" required>
+    <button id="addBtn">Hinzufügen</button>
+</div>
+
+<hr>
+
+<div>
+    <h2>Noch zu erledigen</h2>
+    <ul id="todo">
+        <li><input type="checkbox" class="toggle" > Mathe lernen</li>
+        <li><input type="checkbox" class="toggle"> Hausaufgaben</li>
+    </ul>
+</div>
+
+<hr>
+
+<div>
+    <h2>Abgeschlossen</h2>
+    <ul class="done" id="done">
+    </ul>
+</div>
+
+</body>
+</html>
